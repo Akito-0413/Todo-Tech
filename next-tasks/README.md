@@ -1,5 +1,5 @@
 タスク管理をおこなうためのWebアプリケーション<br>
-https://todo-tech-lpfpttnzd-akito0413s-projects.vercel.app/<br>
+https://todo-tech-pearl.vercel.app/<br>
 学習用のプロジェクトであり、これからより多くの機能やデザインを実装予定
 
 ## 機能一覧
