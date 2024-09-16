@@ -8,3 +8,6 @@
 
 ## 技術スタック
 - Next.js
+- MogoDB
+  - Mongoose
+
