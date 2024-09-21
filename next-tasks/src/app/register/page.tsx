@@ -33,43 +33,43 @@ export default function Register() {
             border border-solid border-black bg-white rounded text-black"
       >
         {error && <div className="">{error}</div>}
-        <h1 className="mb-5 w-full text-2xl font-bold">Register</h1>
+        <h1 className="mb-5 w-full text-2xl font-bold">アカウント登録</h1>
 
-        <label className="w-full text-sm">Full Name</label>
+        <label className="w-full text-sm">名前</label>
         <input
           type="text"
-          placeholder="Full Name"
+          placeholder="名前"
           className="w-full h-8 border border-solid border-black py-1 px-2.5 rounded text-[13px]"
           name="name"
         />
 
-        <label className="w-full text-sm">Email</label>
+        <label className="w-full text-sm">メールアドレス</label>
         <input
           type="email"
-          placeholder="Email"
+          placeholder="メールアドレス"
           className="w-full h-8 border border-solid border-black py-1 px-2.5 rounded"
           name="email"
         />
 
-        <label className="w-full text-sm">Password</label>
+        <label className="w-full text-sm">パスワード</label>
         <div className="flex w-full">
           <input
             type="password"
-            placeholder="Password"
+            placeholder="パスワード"
             className="w-full h-8 border border-solid border-black py-1 px-2.5 rounded"
             name="password"
           />
         </div>
 
         <button className="w-full rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
-          Sign up
+          アカウント作成
         </button>
 
         <Link
           href="/login"
           className="text-sm text-[#888] transition duration-150 ease hover:text-black"
         >
-          Already have an account?
+          既にアカウントを持っている方はこちら！
         </Link>
       </form>
     </section>

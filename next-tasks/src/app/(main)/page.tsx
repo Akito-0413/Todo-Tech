@@ -43,13 +43,15 @@ export default async function MainPage() {
       return (
         <div className="text-gray-800 p-8 h-full overflow-y-auto pb-24">
           <header className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold flex items-center">All Tasks</h1>
+            <h1 className="text-2xl font-bold flex items-center">
+              全てのタスク
+            </h1>
             <Link
               href="/new"
               className="flex items-center gap-1 font-semibold border px-4 py-2 rounded-full shadow-sm text-white bg-gray-800 hover:bg-gray-700"
             >
               <MdAddTask className="size-5" />
-              <div>Add Task</div>
+              <div>タスク作成</div>
             </Link>
           </header>
           <div className="mt-8 flex flex-wrap gap-4">
@@ -65,7 +67,7 @@ export default async function MainPage() {
               });
             }}
           >
-            Sign Out
+            ログアウト
           </button>
         </div>
       );
@@ -77,14 +79,14 @@ export default async function MainPage() {
           href="/login"
           className="rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
         >
-          Sign In
+          ログイン
         </Link>
       );
     }
   };
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
-      <h1 className="text-xl pb-4">Home</h1>
+      <h1 className="text-xl pb-4">TOP</h1>
       {showSession()}
     </main>
   );
