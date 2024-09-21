@@ -30,32 +30,32 @@ export default function Login() {
         action={handleSubmit}
       >
         {error && <div className="text-black">{error}</div>}
-        <h1 className="mb-5 w-full text-2xl font-bold">Sign In</h1>
-        <label className="w-full text-sm">Email</label>
+        <h1 className="mb-5 w-full text-2xl font-bold">ログイン</h1>
+        <label className="w-full text-sm">メールアドレス</label>
         <input
           type="email"
-          placeholder="Email"
+          placeholder="メールアドレス"
           className="w-full h-8 border border-solid border-black rounded p-2"
           name="email"
         />
-        <label className="w-full text-sm">Password</label>
+        <label className="w-full text-sm">パスワード</label>
         <div className="flex w-full">
           <input
             type="password"
-            placeholder="Password"
+            placeholder="パスワード"
             className="w-full h-8 border border-solid border-black rounded p-2"
             name="password"
           />
         </div>
         <button className="w-full rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
-          Sign In
+          ログイン
         </button>
 
         <Link
           href="/register"
           className="text-sm text-[#888] transition duration-150 ease hover:text-black"
         >
-          Don't have an account?
+          アカウントを持っていない方はこちらから！
         </Link>
       </form>
     </section>
